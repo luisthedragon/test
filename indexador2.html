@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c09cdcc56d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Linda Vista</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fa fa-building"></i> Linda Vista</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>Inicio</li>
+                <li>Catalogo</li>
+                <li>Ayuda</li>
+                <li>Consultar vivienda</li>
+                <li>Contáctenos</li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Consultar vivienda</h2>
+            <p>Ayúdenos a encontrar la vivienda que mejor se acomode a sus necesidades</p>
+            <h3>Datos personales</h3>
+            <table class="tabla1">
+                <tr>
+                    <td>Nombre</td>
+                    <td><input type="text" name="nombre" id="nombre"></td>
+                </tr>
+                <tr>
+                    <td>Edad</td>
+                    <td>
+                        <input type="radio" id="menos20" name="edad" value="menos20">
+                        <label for="menos20">Menos de 20</label>
+                        <input type="radio" id="21a30" name="edad" value="21a30">
+                        <label for="21a30">De 21 a 30</label>
+                        <input type="radio" id="31a40" name="edad" value="31a40">
+                        <label for="31a40">De 31 a 40</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Profesion</td>
+                    <td>
+                        <select name="profesion" id="profesion">
+                            <option value="">Seleccione su profesion</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <h3>Datos de la vivienda a buscar</h3>
+            <table class="tabla2">
+                <tr>
+                    <td>Dormitorios</td>
+                    <td>
+                        <input type="radio" id="dorm" name="dormitorio" value="dorm">
+                        <label for="dorm">1</label>
+                        <input type="radio" id="dorm" name="dormitorio" value="dorm">
+                        <label for="dorm">2</label>
+                        <input type="radio" id="dorm" name="dormitorio" value="dorm">
+                        <label for="dorm">3</label>
+                        <input type="radio" id="dorm" name="dormitorio" value="dorm">
+                        <label for="dorm">4</label>
+                        <input type="radio" id="dorm" name="dormitorio" value="dorm">
+                        <label for="dorm">5</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tipo</td>
+                    <td>
+                        <select name="profesion" id="profesion">
+                            <option value="">Seleccione su tipo de vivienda</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Precio</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Zona</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Extras:</td>
+                    <td></td>
+                </tr>
+            </table>
+            <p>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> Deseo recibir informacion acerca de futuras promociones</label>
+            </p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </main>
+        <footer>
+            <p>@LindaVista</p>
+            <div>
+                <p>copyright</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

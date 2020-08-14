@@ -1,0 +1,7 @@
+Secuencia tiempo = 0.004194
+Maximo numero de hilos 4
+Paralelo 1 tiempo = 0.001653
+Paralelo 1.1 Hilo 3 de 4 hilos tiempo = 0.001467
+Paralelo 1.1 Hilo 2 de 4 hilos tiempo = 0.002988
+Paralelo 1.1 Hilo 1 de 4 hilos tiempo = 0.004512
+Paralelo 1.1 Hilo 0 de 4 hilos tiempo = 0.006092
